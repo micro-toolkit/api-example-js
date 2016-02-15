@@ -1,0 +1,10 @@
+{
+  "properties": ["id", "name", "email", "avatarUrl"],
+  "relations": [
+    {
+      "name": "tasks",
+      "type": "collection"
+    }
+  ],
+  "actions": ["get"]
+}

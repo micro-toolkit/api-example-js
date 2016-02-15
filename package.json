@@ -1,0 +1,20 @@
+{
+  "name": "micro-toolkit-api-example",
+  "version": "1.0.0",
+  "description": "Micro Toolkit API skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test node_modules/mocha/bin/mocha ./tests"
+  },
+  "author": "Pedro Januário <prnjanuario@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "convict": "^1.0.2",
+    "express": "^4.13.3",
+    "logger-facade-console-plugin-nodejs": "0.0.3",
+    "logger-facade-nodejs": "0.0.3",
+    "micro-toolkit-api-generators": "git+ssh://git@github.com/micro-toolkit/api-generator-js.git",
+    "morgan": "^1.6.1"
+  }
+}

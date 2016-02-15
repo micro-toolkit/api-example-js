@@ -1,0 +1,7 @@
+{
+  "logging": {
+    "level": "trace",
+    "timeFormat": "YYYY-MM-DD HH:mm:ss",
+    "messageFormat": "%time | %logger::%level - %msg"
+  }
+}
