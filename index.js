@@ -25,6 +25,9 @@ if (!isTest) {
 // Allow CORS to be used by any client
 app.use(middlewares.cors);
 
+// All endpoints should be protected by token
+app.use(middlewares.auth);
+
 // configure application routes
 app.use(router);
 

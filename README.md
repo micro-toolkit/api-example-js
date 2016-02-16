@@ -47,7 +47,15 @@ Execute the following commands to get API running.
     2016-02-15 20:47:34 | API::METADATA::INFO - Mount route GET /v1/users/:id/tasks
     2016-02-15 20:47:34 | API::INFO - Server running on port 8081
 
+**Generate a user token for the API**
+
+The token is valid for the next 24 hours.
+
+    $ node bin/generate_token.js
+    API Token (valid for 24 hours):
+    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2Vycy8xIiwiaXNzIjoiaHR0cDovL2FwcC5jb20iLCJzY29wZSI6Im1lLGFkbWluIiwidXNlcklkIjoiMSIsInRlbmFudElkIjoiMSIsImlhdCI6MTQ1NTYzMDYzNywiZXhwIjoxNDU1NzE3MDM3fQ.sGNw7MS8bKH5YBrZLGQTaZLjSdVNLlaRbncBB-c8icY
+
 **Access the API**
 
-    $ curl http://localhost:8081
+    $ curl http://localhost:8081?token=your_generated_token
     {"status":"API is running properly..."}

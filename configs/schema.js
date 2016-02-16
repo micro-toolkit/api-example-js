@@ -16,6 +16,13 @@ module.exports = {
     default: 8081,
     env: "PORT"
   },
+  auth: {
+    secret: {
+      doc: "Logger facade active logging level",
+      format: String,
+      default: "secret"
+    }
+  },
   logging: {
     level: {
       doc: "Logger facade active logging level",
@@ -32,6 +39,13 @@ module.exports = {
       format: String,
       default: '%time | %logger::%level - %msg'
     }
+  },
+  // Mico toolkit claims forward configuration
+  // this claims should be properties present req.user
+  claims: {
+    doc: "A list of comma separated claims that should be used to send to service",
+    format: String,
+    default: "userId,tenantId"
   },
   // ZSS Client default configurations
   defaultService: {

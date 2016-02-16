@@ -12,6 +12,7 @@
   "dependencies": {
     "convict": "^1.0.2",
     "express": "^4.13.3",
+    "jsonwebtoken": "^5.5.4",
     "logger-facade-console-plugin-nodejs": "0.0.3",
     "logger-facade-nodejs": "0.0.3",
     "micro-toolkit-api-generators": "git+ssh://git@github.com/micro-toolkit/api-generator-js.git",
