@@ -1,6 +1,6 @@
 # API
 
-This API is a example on how to use the [micro toolkit api generators](https://github.com/micro-toolkit/api-generator-js) to build a facade API that connects to micro toolkit microservices instances.
+This API is part of the [micro-toolkit](http://micro-toolkit.github.io/info/) and is a example on how to use the [micro toolkit api generators](https://github.com/micro-toolkit/api-generator-js) to build a facade API that connects to micro toolkit microservices instances.
 
 ## Project structure
 
