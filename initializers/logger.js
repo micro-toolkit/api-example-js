@@ -2,7 +2,10 @@ var Logger = require('logger-facade-nodejs'),
     LoggerConsolePlugin = require('logger-facade-console-plugin-nodejs'),
     config = require('../config');
 
-var plugin = new LoggerConsolePlugin(config.get('logging'));
-Logger.use(plugin);
+var loggingConfig = config.get('logging');
+if (loggingConfig) {
+  var plugin = new LoggerConsolePlugin(loggingConfig);
+  Logger.use(plugin);
+}
 
 module.exports = Logger;
