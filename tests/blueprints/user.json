@@ -3,6 +3,7 @@
   "name": "Pedro",
   "email": "peter@something.com",
   "avatarUrl": "https://avatars2.githubusercontent.com/u/477458",
+  "active": true,
   "_links": {
     "self": "/users/pjanuario",
     "tasks": "/users/pjanuario/tasks"

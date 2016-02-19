@@ -4,5 +4,6 @@
   "updatedAt": "2015-12-14T14:52:06.157Z",
   "name": "Pedro",
   "email": "peter@something.com",
-  "avatarUrl": "https://avatars2.githubusercontent.com/u/477458"
+  "avatarUrl": "https://avatars2.githubusercontent.com/u/477458",
+  "active": true
 }
