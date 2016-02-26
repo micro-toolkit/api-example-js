@@ -5,6 +5,7 @@ var fs = require('fs'),
     util = require('util');
 
 function link(path){
+  if (!path) { return null; }
   return util.format('%s/v1%s', config.get('baseUrl'), path);
 }
 

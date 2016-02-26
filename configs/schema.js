@@ -80,5 +80,12 @@ module.exports = {
       format: String,
       default: "USER"
     }
+  // ZSS USER Service Client Configuration
+  claimService: {
+    sid: {
+      doc: "The claims service name identifier",
+      format: String,
+      default: "CLAIM"
+    }
   }
 };
