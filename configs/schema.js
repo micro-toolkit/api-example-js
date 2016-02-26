@@ -80,6 +80,15 @@ module.exports = {
       format: String,
       default: "USER"
     }
+  },
+  // ZSS USER Service Client Configuration
+  roleService: {
+    sid: {
+      doc: "The role service name identifier",
+      format: String,
+      default: "ROLE"
+    }
+  },
   // ZSS USER Service Client Configuration
   claimService: {
     sid: {
