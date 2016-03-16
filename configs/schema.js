@@ -96,5 +96,13 @@ module.exports = {
       format: String,
       default: "CLAIM"
     }
+  },
+  // ZSS Me Service Client Configuration
+  meService: {
+    sid: {
+      doc: "The user service name identifier",
+      format: String,
+      default: "USER"
+    }
   }
 };

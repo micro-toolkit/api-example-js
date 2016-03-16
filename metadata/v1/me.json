@@ -1,0 +1,6 @@
+{
+  "path": "me",
+  "currentUserKey": "userId",
+  "properties": ["id", "name", "email", "avatarUrl", "active"],
+  "actions": ["get"]
+}
