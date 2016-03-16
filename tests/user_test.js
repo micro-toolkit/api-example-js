@@ -71,8 +71,7 @@ describe('Integration: User Endpoints', function(){
 
       request(app)
         .delete('/v1/users/pjanuario/active?token=' + token)
-        .expect(200)
-        .expect('Content-Type', /json/)
+        .expect(204)
         .end(done);
     });
   });
