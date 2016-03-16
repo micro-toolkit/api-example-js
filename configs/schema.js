@@ -81,7 +81,7 @@ module.exports = {
       default: "USER"
     }
   },
-  // ZSS USER Service Client Configuration
+  // ZSS Role Service Client Configuration
   roleService: {
     sid: {
       doc: "The role service name identifier",
@@ -89,7 +89,7 @@ module.exports = {
       default: "ROLE"
     }
   },
-  // ZSS USER Service Client Configuration
+  // ZSS Claim Service Client Configuration
   claimService: {
     sid: {
       doc: "The claims service name identifier",
