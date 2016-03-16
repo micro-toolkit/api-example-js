@@ -3,7 +3,7 @@ var claims = {
   sub: 'users/1',
   iss: 'http://local.test.com',
   scope: 'me,admin',
-  userId: '1',
+  userId: 'pjanuario',
   tenantId: '1'
 };
 
